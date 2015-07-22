@@ -1,0 +1,1 @@
+$query2 ="select * from PRODUCT where PRODUCT_NAME like '%".$search."%' OR '%".$search."' OR '".$search."%' order by PRODUCT_ID";

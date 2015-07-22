@@ -1,0 +1,393 @@
+/**/
+
+body{
+	background:#f6f6f4;
+}
+
+
+/*resizing the navbar*/
+.navbar{
+	min-height: 60px;
+	overflow: visible !important;
+}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+  min-height: 60px;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  min-height: inherit;
+  color:#e7e7e7;
+}
+.navbar-nav {
+  min-height: inherit;
+  
+}
+.navbar-nav > li {
+  float: left;
+  min-height: inherit;
+  min-width: 100px;
+ 
+  border-right-style: solid;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+  min-height: inherit;
+}
+.navbar-default .navbar-nav > li > a {
+  min-height: inherit;
+}
+
+/*/////////resizing the navbar*/
+
+/*change the background color of navbar*/
+.navbar-default {
+  background-color: #2d2d2d;
+  border-color: #e7e7e7;
+  
+}
+/*///////change the background color of navbar*/
+
+
+/*Change fonts*/
+.navbar-default .navbar-nav > li > a {
+   color:#e7e7e7;
+    font-family: 'Open Sans';
+	  font-size: 1.1em;
+	  font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.dropdown-menu > li > a {
+  color:#e7e7e7;
+    font-family: 'Open Sans';
+	  font-size: 1.1em;
+	  background-color: #2d2d2d;
+	  font-weight: bold;
+}
+.dropdown-header {sss
+  color:#2d2d2d;
+  background-color: #e7e7e7;
+  font-family: 'Open Sans';
+	  font-size: 1.1em;
+	  font-weight: bold;
+}
+.dropdown-menu .divider {
+  
+  background-color: #2d2d2d;
+  font-weight: bold;
+}
+/*//////Change fonts*/
+
+/*make navbar dropdown oval around edges*/
+.navbar-nav > li > .dropdown-menu {
+  border-radius: 20px 20px 20px 20px;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+  border-radius: 20px 20px 20px 20px;
+}
+.dropdown-menu > li > a {
+	border-radius: 10px 10px 10px 10px;
+}
+/*////////make navbar dropdown oval around edges*/
+
+
+
+
+/*logo customisation*/
+.logo{font-size: 2.2em;
+	text-shadow: none;
+	margin: 8px 0 0 0;
+	float:left;
+	display: inline;
+	position:relative;
+	border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-o-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	margin-top:60px;
+	margin-left:2.5%;
+}
+/*/////////logo customisation*/
+
+
+
+
+/*submenu*/
+.submenu{
+	margin-top: 90px;
+	background-repeat:repeat-x;
+	min-width:75%;
+	background-image: url('../images/submenu.jpg');
+	float:right;
+	min-height:inherit;
+}
+.submenu > ul > li >a{
+	font-family: Open Sans;
+	font-weight: bold;
+}
+.submenu > ul > li :hover{
+	color:#ffffff;
+}
+.submenu > ul > .active{
+	color:#ffffff;
+}
+.submenu > ul > .active > a{
+	color:#ffffff;
+}
+/*/////////submenu*/
+
+
+/*customizaation for mybody div*/
+.mybody{
+	min-height:720px;
+	margin-top: 2%;
+	background-image: url('../images/submenu.jpg');
+	background-repeat: repeat;
+	border-radius: 5px 5px 5px 5px;
+	padding: 30px 30px 30px 30px;
+}
+/*///////customizaation for mybody div*/
+
+
+
+/*footer customization*/
+.webbottom{
+	margin-top: 2%;
+	background: #202628;
+	padding: 2em 0 1em;
+	color:#ffffff;
+	min-height:100px;
+	max-height: 200px;
+	font-family:ravie;
+	font-size:16px;
+}
+.webbottom > ul > li >a{
+	color:#ffffff;
+	font-family:ravie;
+	font-size:16px;
+}
+.webbottom p{
+	margin:1em 0;
+	font-size: 0.9em;
+	color:#a0a0a0;
+}
+
+/*////////footer customization*/
+
+/*Login css*/
+.logindiv{
+	margin-top:5%;
+	margin-left: 30%;
+	font-family:Open Sans;
+	border:solid #4D004D; 
+	border-width:1px 10px 10px 1px ;
+	width:40%; 
+	border-radius: 10px 10px 10px 10px;
+}
+
+.logindiv  form table tr th{
+	padding: 20px 20px 20px 20px;
+	color:#ffffff;
+	background-color:#4D004D;
+	width: 40%;
+	font-family:Open Sans;
+}
+.logindiv  form table tr th p{
+	font-family:ravie;
+}
+.logindiv  form table tr td{
+	padding: 20px 20px 20px 20px;
+	color:#000000;
+	font-family:Open Sans;
+	font-weight:bold;
+}
+
+.logindiv  form table tr td .btn{
+	color:#ffffff;
+	background-color:#4D004D;
+	font-family:Open Sans;
+	font-weight:bold;
+}
+.logindiv  form table tr td .btn:hover{
+	color:#4D004D;
+	background-color:#ffffff;
+	font-family:Open Sans;
+	font-weight:bold;
+}
+.logindiv  form table tr td input{
+	font-family:Open Sans;
+	border-radius: 5px 5px 5px 5px;
+}
+
+
+/*/////////Login css*/
+
+
+/*custom form*/
+
+.myform >h3{
+	color:#4D004D;
+	font-weight:bold;	
+	font-size:12px;
+	
+}
+.myform > .btn {
+	
+	color:#ffffff;
+	background-color:#4D004D;
+	font-weight:bold;
+}
+.form-group >input {
+	width: 50%;
+}
+.formerror{
+	color:red;
+	font-weight:bold;
+	font-size:10px;
+}
+.mytable{
+	
+}
+.mytable  th {
+	color:#ffffff;
+	background-color:#4D004D;
+	font-weight:bold;
+}
+.mytable  tr {
+	font-weight:bold;
+}
+.mytable  a{
+	color:#4D004D;
+	font-weight:bold;
+	font-family:ravie;
+}
+.mytable  a:hover{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+/*/////////////custom form*/
+
+.search, .search p{
+	color:#4D004D;
+	font-size:16px;
+	text-transform:uppercase;
+    font-family: 'Aller_Bd';
+	margin-top: -30px;
+}
+
+.btn {
+	height: 30px;
+	color:#ffffff;
+	background-color:#4D004D;
+	font-weight:bold;
+}
+
+/*item display*/
+.img-thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #e7e7e7;
+  border: 1px solid #2d2d2d;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+.itemform{
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  border-top: 3px solid #2d2d2d;
+  border-left: 3px solid #2d2d2d;
+  border-color:#e7e7e7;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+
+}
+.itemform >form >h3{
+	color:#000000;
+	font-weight:bold;	
+	font-size:14px;
+}
+.itemform >form >h2{
+	color:#e7e7e7;
+	font-weight:bold;	
+	font-size:18px;
+	position:relative;
+	float:left;position:relative;
+}
+.itemform >form >label{
+	color:#e7e7e7;
+	font-weight:bold;	
+	font-size:18px;
+	float:left;position:relative;
+}
+.itemform >form >input{
+	color:#2d2d2d;
+	font-weight:bold;	
+	font-size:18px;
+	width:100px;
+}
+.itemform >form>a> .btn {
+	margin-top:40px;
+	position:relative;
+	color:#e7e7e7;
+	background-color:#4D004D;
+	font-weight:bold;
+}
+.itemform >form>a> .btn:hover {
+	margin-top:40px;
+	position:relative;
+	color:#4D004D;
+	background-color:#e7e7e7;
+	font-weight:bold;
+}/*item display*/
+
+/*item display*/
+
+
+.categoryform >a:hover,.categoryform >a:active{
+	background-color:#ffffff;
+	color:#2b2b2b;
+	font-style:none;
+
+}
+tr:hover{
+	background-color:#ffffff;
+	color:#2b2b2b;
+}
+.categoryform >a >h3{
+	color:#000000;
+	font-weight:bold;	
+	font-size:14px;
+}
+.categoryform >a >h2{
+	color:#e7e7e7;
+	font-weight:bold;	
+	font-size:18px;
+	
+}/*///////////item display*/
+
+
+/*mybody*/
+.mybody >h3{
+	color:#4D004D;
+	font-weight:bold;	
+	font-size:24px;
+	
+}
+.mybody > .btn {
+	
+	color:#ffffff;
+	background-color:#4D004D;
+	font-weight:bold;
+}/*mybody*/
